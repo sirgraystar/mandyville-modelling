@@ -2,7 +2,7 @@
     mandyville modelling - build.sbt
  */
 
-ThisBuild / scalaVersion := "2.13.0"
+ThisBuild / scalaVersion := "2.13.8"
 ThisBuild / organization := "es.odavi.mandyville"
 
 val testVersion = "3.2.7"
