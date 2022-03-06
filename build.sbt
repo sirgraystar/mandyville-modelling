@@ -33,7 +33,7 @@ val flyway = "org.flywaydb" % "flyway-core" % flywayVersion
 val sLVersion = "3.9.4"
 val scalaLogging = "com.typesafe.scala-logging" %% "scala-logging" % sLVersion
 
-val logbackVersion = "1.2.7"
+val logbackVersion = "1.2.11"
 val logback = "ch.qos.logback" % "logback-classic" % logbackVersion
 
 IntegrationTest / envVars := Map(
